@@ -1,0 +1,140 @@
+@media only screen and (max-width: 600px) {
+    .gallary {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(20, 4vw);
+    }
+  
+    .item-1 {
+      grid-column-start: 1;
+      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 7;
+    }
+  
+    .item-2 {
+      grid-column-start: 1;
+      grid-column-end: 7;
+      grid-row-start: 7;
+      grid-row-end: 11;
+    }
+    .item-3 {
+      grid-column-start: 1;
+      grid-column-end: 7;
+      grid-row-start: 11;
+      grid-row-end: 15;
+    }
+    .item-4 {
+      grid-column-start: 1;
+      grid-column-end: 7;
+      grid-row-start: 15;
+      grid-row-end: 19;
+    }
+  }
+
+  @media(max-width:767px) {
+    .cart1 {
+        padding: 4vh;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 1rem
+    }
+}
+
+@media(max-width:767px) {
+    .summary {
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 1rem
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .main__cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 0;
+    }
+    .charts__right__cards {
+      grid-template-columns: 1fr !important;
+      gap: 10px;
+    }
+  
+  
+    .charts {
+      grid-template-columns: 1fr;
+      margin-top: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .navbar__left {
+      display: none;
+    }
+    .charts__right__cards {
+      grid-template-columns: 1fr !important;
+      gap: 10px;
+    }
+  }
+
+  @media(max-width:767px) {
+    .card1 {
+        margin: 3vh auto
+    }
+}
+
+@media only screen and (max-width: 978px) {
+    .container {
+      grid-template-columns: 1fr;
+      /* grid-template-rows: 0.2fr 2.2fr; */
+      grid-template-rows: 0.2fr 3fr;
+      grid-template-areas:
+        "nav"
+        "main";
+    }
+  
+    #sidebar {
+      display: none;
+    }
+  
+    .sidebar__title > i {
+      display: inline;
+    }
+  
+    .nav_icon {
+      display: inline;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .navbar__left {
+      display: none;
+    }
+    .carousel-inner {
+      height: 100% !important;
+  }
+  }
+
+  @media only screen and (max-width: 978px) {
+    .container {
+      grid-template-columns: 1fr;
+      /* grid-template-rows: 0.2fr 2.2fr; */
+      grid-template-rows: 0.2fr 3fr;
+      grid-template-areas:
+        "nav"
+        "main";
+    }
+    .carousel-inner {
+      height: 100% !important;
+    }
+  
+    #sidebar {
+      display: none;
+    }
+  
+    .sidebar__title > i {
+      display: inline;
+      font-size: 20px;
+    }
+  
+    .nav_icon {
+      display: inline;
+    }
+  }
